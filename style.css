@@ -60,7 +60,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0A0A0A;
+  background: #0e0e0e;
   border-radius: 1.5em;
   height: 50px;
   width: 100%;
@@ -112,11 +112,6 @@ header{
     gap: .8em;
     border-radius: 50%;
 }
-.logo{
-    max-width: 40px;
-    height: auto;
-    border-radius: 30%;
-}
 .box-shadow{
     box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -141,13 +136,13 @@ header{
     margin-right: 1em;
 }
 .i1{
-    width:25%
+    width:25%;
 }
 .i2{
-    width: 25%;
+    width: 30%;
 }
 .i3{
-    width: 30%;
+    width: 32%;
 }
 img:hover{
     opacity: 0.8;
@@ -487,6 +482,9 @@ p.pfont{
     
     .navbar-links.active {
         display: flex;
+    }
+    .divlogo{
+        margin-top: 5px;
     }
 }
 @media (max-width:320px){

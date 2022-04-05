@@ -6,5 +6,5 @@ toggleButton.addEventListener('click', () => {
   document.body.style.overflow = show ? "hidden" : "initial"
   navbarLinks.classList.toggle('active', show)
   show = !show;
-  
 })
+
